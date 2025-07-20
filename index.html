@@ -12,6 +12,7 @@
       padding: 80px 20px;
       max-width: 800px;
       margin: auto;
+      box-sizing: border-box;
     }
     h1 {
       font-size: 3em;
@@ -26,6 +27,7 @@
       font-size: 1.1em;
       line-height: 1.6;
       margin: 10px 0;
+      max-width: 100%;
     }
     ul {
       list-style: none;
@@ -60,6 +62,38 @@
       margin-top: 40px;
       font-weight: bold;
     }
+
+    /* Responsive fixes */
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+        max-width: 100%;
+        text-align: left;
+      }
+      h1 {
+        font-size: 2em;
+        text-align: center;
+      }
+      h2 {
+        font-size: 1.3em;
+      }
+      p {
+        font-size: 1em;
+        margin: 8px 0;
+      }
+      ul {
+        max-width: 100%;
+        padding: 0 10px;
+      }
+      .links {
+        text-align: left;
+        padding-left: 10px;
+      }
+      .cta {
+        text-align: left;
+        margin-top: 30px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -68,19 +102,18 @@
 
   <h2>About Me</h2>
   <p>
-I am a young professional going into my final year studying Business and Enterprise Management. One of my strengths, and what makes me unique, comes from my background, which gives me a different angle through which I view the world of business.
+    I am a young professional going into my final year studying Business and Enterprise Management. One of my strengths, and what makes me unique, comes from my background, which gives me a different angle through which I view the world of business.
   </p>
   <p>
-   We live in a world where revenues and cash flows are the ultimate indicators of success and failure. With the foundation of this success coming from understanding society and what motivates the customer to spend their hard-earned cash. Subsequent failure to effectively capitalise on these behavioural insights being the barrier preventing many SME’s from being able to develop into market leaders. 
+    We live in a world where revenues and cash flows are the ultimate indicators of success and failure. With the foundation of this success coming from understanding society and what motivates the customer to spend their hard-earned cash. Subsequent failure to effectively capitalise on these behavioural insights being the barrier preventing many SMEs from being able to develop into market leaders.
   </p>
   <p>
-  Before I enrolled in my degree, I studied Psychology and sociology. This helped equip me with a deeper insight into human behaviour, and how consumer preferences have been conditioned into people. Helping form a better understanding of how I can help capitalise on these preferences and tackle real-world business challenges. 
+    Before I enrolled in my degree, I studied Psychology and Sociology. This helped equip me with a deeper insight into human behaviour, and how consumer preferences have been conditioned into people. Helping form a better understanding of how I can help capitalise on these preferences and tackle real-world business challenges.
   </p>
- </p>
-At this stage in my journey. I am working hard to develop my skillset through extra-curricular activities such as; the email marketing course that I recently passed; by beginning to learn Mandarin as a second language, with China being one of the world's largest consumer markets and largest suppliers; and most importantly networking to form connections with and learn from those with industry experience. 
-   </p>
-   </p>
-  
+  <p>
+    At this stage in my journey, I am working hard to develop my skillset through extra-curricular activities such as the email marketing course that I recently passed; by beginning to learn Mandarin as a second language, with China being one of the world's largest consumer markets and largest suppliers; and most importantly networking to form connections with and learn from those with industry experience.
+  </p>
+
   <h2>Skills</h2>
   <ul>
     <li>Strategic Planning</li>
@@ -103,3 +136,4 @@ At this stage in my journey. I am working hard to develop my skillset through ex
   </div>
 </body>
 </html>
+
